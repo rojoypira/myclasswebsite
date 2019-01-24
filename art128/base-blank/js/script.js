@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     //JAVASCRIPT FUNCTIONS GO HERE
-    alert("hi :-)");
+    alert("hi :~)");
 })
