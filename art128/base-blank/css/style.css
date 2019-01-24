@@ -1,7 +1,5 @@
 /* #BASE CSS (Initital Setup)
 ---------------------------------
-    #BASE START
-        #HTML5
     #BASE CONTENT
         #TYPOGRAPHY
             #BODY
@@ -29,7 +27,3 @@
         #SITE NAVIGATION
             #TOGGLE-NAV (Default for Small Screens)
 --------------------------------- */
-/* #HTML5 */
-header, section, footer, aside, nav, main, article, figure {
-  display: block;
-}
