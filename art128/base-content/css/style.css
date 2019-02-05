@@ -1,14 +1,11 @@
 /* #BASE CSS (Initital Setup)
 ---------------------------------
-    #BASE START
-        #HTML5
     #BASE CONTENT
         #TYPOGRAPHY
             #BODY
             #HEADINGS
             #PARAGRAPHS
             #LINKS
-            #LISTS
             #HELPERS
         #MEDIA
             #IMAGES
@@ -29,11 +26,6 @@
         #SITE NAVIGATION
             #TOGGLE-NAV (Default for Small Screens)
 --------------------------------- */
-/* #HTML5 */
-header, section, footer, aside, nav, main, article, figure {
-  display: block;
-}
-
 /* #TYPOGRAPHY  */
 /* Reference
 	62.5%  => 10px
@@ -107,6 +99,7 @@ h6 {
 /* #PARAGRAPHS */
 p {
   margin: 0 0 0.5em 0;
+  max-width: 38em;
 }
 
 /* #LINKS */
@@ -117,31 +110,6 @@ a {
 
 a:hover {
   color: #003;
-}
-
-/* #LISTS */
-ul,
-ol,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  padding-bottom: 1em;
-}
-
-ul li ul,
-ul li ol,
-ol li ul,
-ol li ol {
-  margin: 0;
-  padding-bottom: 0;
-}
-
-li {
-  margin-left: 1.875em;
 }
 
 /* #BLOCK QUOTES  */
@@ -193,7 +161,7 @@ hr {
 
 /* #MEDIA  */
 /* #IMAGES */
-img.scale-with-grid {
+img {
   max-width: 100%;
   height: auto;
 }
