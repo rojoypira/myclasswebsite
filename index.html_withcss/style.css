@@ -1,0 +1,139 @@
+/* BASE (Initital Setup)
+=====================================
+    #BASE TYPOGRAPHY
+            #BODY
+            #HEADINGS
+            #PARAGRAPHS
+            #LINKS
+            #LISTS
+===================================== */
+
+/* #BODY */
+body {
+    font-family: Avenir, sans-serif;
+    color: cadetblue;
+    font-size:  80%; /* 16px; */
+    line-height: 1.5em; /* 16px x 1.5em = 24px */
+	background: white;
+	padding-top: 50px;
+  	padding-right: 40px;
+  	padding-bottom: 50px;
+  	padding-left: 40px;
+}
+/* IMAGE GALLERY */
+
+div.gallery {
+    margin: 10px;
+    float: center;
+    width: 180px;
+} 
+        
+div.gallery img {
+    width: 120%;
+    height: auto;
+ }
+        
+div.desc {
+    padding: 15px;
+	text-align: left;
+}
+
+/* #HEADINGS
+	Based on a Traditional Typographic Scale
+	48, 36, 24, 21, 18, 16
+*/
+h2{
+	color: indianred
+}
+
+h2{
+	padding-bottom: 50px;
+	border-bottom-style: dotted;
+	border-bottom: 4px solid white
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: .5em 0;
+
+}
+
+h1 {
+	font-size: 3em; /* 48px / 16px = 3em */
+	line-height: 1em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2.25em; /* 36px / 16px = 2.25em */
+	line-height: 1.1em;
+	text-align: center;
+}
+
+h3 {
+
+	font-size: 1.5em; /* 24px / 16px = 1.5em */
+	line-height: 1.2em;
+	color: salmon;
+}
+
+h4 {
+	font-size: 1.3125em; /* 21px / 16px = 1.3125em */
+	line-height: 1.3em;
+}
+
+h5 {
+	font-size: 1.125em; /* 18px / 16px = 1.125em */
+	line-height: 1.4em;
+}
+
+h6 {
+	font-size: 1em; /* 16px / 16px = 1em */
+	line-height: 1.5em;
+}
+
+h7{
+	font-size: 1em; /* 16px / 16px = 1em */
+	line-height: 1.5em;
+	padding-bottom: 50px;
+	color:salmon
+}
+
+/* #PARAGRAPHS */
+p {	
+	margin: 0 0 .5em 0;
+}
+
+/* #LINKS */
+a { color: #39c; text-decoration: none; }
+a:hover { color: #069; text-decoration: underline; }
+a:focus { color: #39c; }
+a:visited { color: #39c; }
+
+
+/* #LISTS */
+
+ul{
+	list-style-type: circle
+}
+
+ol {
+	list-style-type: upper-roman;
+  }
+
+ul, ol, li {
+    margin: 0;
+	padding: 0;
+}
+
+ul, ol {
+	padding-bottom: 1em;
+}
+
+ul li ul, ul li ol, ol li ul, ol li ol {
+	margin: 0;
+	padding-bottom: 0;
+}
+
+li {
+	margin-left: 1.875em;
+}
